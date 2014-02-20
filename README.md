@@ -1,5 +1,12 @@
 # puppet-mailman
 
+This Puppet module is based heavily on thias/puppet-mailman (https://github.com/thias/puppet-mailman) by Matthias Saou
+
+The HAW-HH-AI-Lab version extends it to add more tests and by support for storing list configuration in an external MySQL database.
+
+Copyright 2011-2013 Matthias Saou
+          2014      Lutz Behnke
+
 ## Overview
 
 This module manages the main Mailman configuration. In addition, you will need
