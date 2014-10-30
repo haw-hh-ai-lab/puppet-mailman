@@ -4,7 +4,7 @@ describe 'mailman' do
   let(:node) { 'testhost.example.org' }
   let(:hiera_config) { 'spec/fixtures/hiera/hiera.yaml' }
 
-  context 'with default settngs' do
+  context 'with default settings' do
     it do
       should contain_package('mailman')
 

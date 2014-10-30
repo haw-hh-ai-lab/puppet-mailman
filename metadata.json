@@ -1,0 +1,19 @@
+{
+  "author": "Matthias Saou",
+  "dependencies": [
+  	{
+      "name": "puppetlabs/mysql",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "description": "Mailman mailing-list server module",
+  "license": "Apache 2.0",
+  "name": "thias-mailman",
+  "operatingsystem_support": [],
+  "project_page": "https://github.com/thias/puppet-mailman",
+  "requirements": [],
+  "source": "git://github.com/thias/puppet-mailman",
+  "summary": "Mailman mailing-list server",
+  "tags": [],
+  "version": "0.1.4"
+}

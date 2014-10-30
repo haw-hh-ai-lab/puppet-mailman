@@ -9,7 +9,7 @@ class mailman::mysql(
    $mysql_host = 'localhost',
    $server_pw = 'none',
   ){
-  class { 'mysql::server':
+  class { '::mysql::server':
     root_password => '15380d6f4f95f6b36ee4574afedc95cd',
   }
   # Creates a database with a user and assign some privileges
