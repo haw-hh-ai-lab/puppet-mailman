@@ -10,12 +10,13 @@ class mailman::mysql(
    $server_pw = 'none',
   ){
   class { '::mysql::server':
-    root_password => '15380d6f4f95f6b36ee4574afedc95cd',
+    root_password => 'mysecret',
+    provider => systemd
   }
   # Creates a database with a user and assign some privileges
   mysql::db { 'mailman':
     user     => 'mailman_db',
-    password => '922336dbed39426cfc0f096b4b935624',
+    password => 'mysecret',
     host     => $mysql_host,
     grant    => ['all'],
   }
